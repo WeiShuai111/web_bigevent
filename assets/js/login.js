@@ -71,7 +71,7 @@ $(function() {
                 // console.log(res.token);
                 // 登录成功后把得到的token字符串保存在localstorage中
                 localStorage.setItem('token',res.token)
-                // location.href = '/index.html'
+                location.href = '/index.html'
             }
 
         })
